@@ -1,0 +1,169 @@
+/*! CSS Used from: Embedded */
+svg:not(:root).svg-inline--fa{overflow:visible;}
+.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-0.125em;}
+.svg-inline--fa.fa-w-14{width:0.875em;}
+.svg-inline--fa.fa-w-16{width:1em;}
+.svg-inline--fa.fa-w-18{width:1.125em;}
+.svg-inline--fa.fa-w-20{width:1.25em;}
+/*! CSS Used from: https://handshake-production-cdn.joinhandshake.com/assets/application-9c4298d82f7a1c5178f14df656e4f960248007a1e2c2f099a32933112a3a56fd.css ; media=all */
+@media all{
+.fa-star:before{content:"\f005";}
+.fa-book:before{content:"\f02d";}
+.fa-plus-circle:before{content:"\f055";}
+.fa-briefcase:before{content:"\f0b1";}
+.fa-link:before{content:"\f0c1";}
+section{display:block;}
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+h1{font-size:2em;margin:0.67em 0;}
+svg:not(:root){overflow:hidden;}
+button{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button{text-transform:none;}
+button{-webkit-appearance:button;cursor:pointer;}
+button::-moz-focus-inner{border:0;padding:0;}
+@media print{
+*,*:before,*:after{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+p,h2,h3{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+button{font-family:inherit;font-size:inherit;line-height:inherit;}
+a{color:#1569e0;text-decoration:none;}
+a:hover,a:focus{color:#0e489a;text-decoration:underline;}
+a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+h1,h2,h3,h4,h5{font-family:inherit;font-weight:400;line-height:1.1;color:inherit;}
+h1,h2,h3{margin-top:18px;margin-bottom:9px;}
+h4,h5{margin-top:9px;margin-bottom:9px;}
+h1{font-size:33px;}
+h2{font-size:27px;}
+h3{font-size:23px;}
+h4{font-size:17px;}
+h5{font-size:13px;}
+p{margin:0 0 9px;}
+.row{margin-left:-15px;margin-right:-15px;}
+.row:before,.row:after{content:" ";display:table;}
+.row:after{clear:both;}
+.col-md-4,.col-md-8{position:relative;min-height:1px;padding-left:15px;padding-right:15px;}
+@media (min-width: 1024px){
+.col-md-4,.col-md-8{float:left;}
+.col-md-4{width:33.33333%;}
+.col-md-8{width:66.66667%;}
+}
+::-ms-clear{display:none;}
+.style__align-center___GzLZc{-ms-flex-align:center;align-items:center;}
+.style__heading___29i1Z{margin:0 0 0.7em;font-family:"Suisse Int'l", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;color:rgba(0,0,0,0.98);line-height:1.33em;font-weight:500;}
+.style__huge___YeESj{font-size:24px;}
+.style__flex___fCvpa{display:flex;width:100%;}
+.style__flex-item___2eWZ4{min-width:0;flex:0 1;order:0;}
+.style__card-item___B1f7m{color:rgba(0,0,0,0.8);position:relative;margin:0;}
+.style__justify-space-between___F3m5J{justify-content:space-between;}
+.style__container___15r1p{margin:0 auto;min-width:320px;padding:24px 16px 0;}
+.style__card___1rhof{margin-bottom:24px;font-family:"Suisse Int'l", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;color:rgba(0,0,0,0.8);background-color:#fff;border-radius:3px;box-shadow:0 0 4px 1px rgba(0,0,0,0.05);}
+.style__card-item___B1f7m+.style__card-item___B1f7m{padding-top:0;}
+.style__card-item___B1f7m:last-child{border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.svg-inline--fa.fa-w-18{width:1.125em;}
+.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-0.125em;}
+.student-profile-card__content-location{display:block;margin-top:2px;}
+@media (min-width: 1024px){
+.student-profile-card__content-location{display:inline-block;margin:0;}
+}
+@media (min-width: 1024px){
+.student-profile-card__content-has-date .student-profile-card__content-location::before{content:"|";margin:0 5px;}
+}
+.student-profile-card__content-tertiary-title{font-size:1em;margin:0 0 0.3em;}
+.student-profile-card__details-label{font-weight:bold;}
+.student-education__details{line-height:1.75em;}
+}
+/*! CSS Used from: https://handshake-production-cdn.joinhandshake.com/dist/0f97e7977a6c4c8d2193.chunk.css ; media=all */
+@media all{
+.style__flex-item___2eWZ4{min-width:0;}
+.style__flex___fCvpa{display:-webkit-box;display:-ms-flexbox;display:flex;width:100%;}
+.style__column___1Ye52{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}
+.style__align-center___GzLZc{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.style__justify-space-between___F3m5J{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+.style__avatar-image___2LV5H{display:block;width:100%;height:100%;background-size:contain;background-position:50%;background-repeat:no-repeat;background-color:#fff;}
+.style__avatar___2JuVa{height:56px;width:56px;min-width:56px;line-height:56px;font-size:56px;overflow:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:3px;background-color:#707070;}
+.style__avatar-bordered___2TTCd{border:1px solid #e0e0e0;}
+.style__avatar-round___3RzuF{border-radius:50%;}
+.style__avatar-small___2kw-_{height:40px;width:40px;min-width:40px;line-height:40px;font-size:40px;}
+.style__avatar-extra-large___e7Tg9{height:104px;width:104px;min-width:104px;line-height:104px;font-size:104px;}
+.style__avatar-color-green___1cOqz{background-color:#0d7f02;}
+.style__avatar-color-blue___2JSG2{background-color:#1569e0;}
+.style__avatar-color-purple___24BXs{background-color:#9339f9;}
+.style__base___hEhR9{display:inline-block;cursor:pointer;font-size:13px;font-weight:500;line-height:20px;text-decoration:none;border:0;border-radius:3px;padding:8px 12px;-webkit-transition:background-color .2s;-o-transition:background-color .2s;transition:background-color .2s;font-family:Suisse Int\'l,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;background-color:rgba(0,0,0,.06);color:rgba(0,0,0,.98);}
+.style__base___hEhR9:focus,.style__base___hEhR9:hover{background-color:rgba(0,0,0,.12);color:rgba(0,0,0,.98);}
+.style__base___hEhR9:focus:active,.style__base___hEhR9:hover:active{background-color:rgba(0,0,0,.18);color:rgba(0,0,0,.98);}
+.style__base___hEhR9:focus:disabled,.style__base___hEhR9:hover:disabled{background-color:rgba(0,0,0,.06);}
+.style__base___hEhR9:active,.style__base___hEhR9:focus,.style__base___hEhR9:hover{text-decoration:none;}
+.style__block___sWiC_{display:block;width:100%;text-align:center;}
+.style__primary___1JMHS{background-color:#1569e0;color:#fff;}
+.style__primary___1JMHS:focus,.style__primary___1JMHS:hover{background-color:#1153b1;color:#fff;}
+.style__primary___1JMHS:focus:active,.style__primary___1JMHS:hover:active{background-color:#0c3d83;color:#fff;}
+.style__primary___1JMHS:focus:disabled,.style__primary___1JMHS:hover:disabled{background-color:#1569e0;}
+.style__card-item___B1f7m{color:rgba(0,0,0,.8);position:relative;margin:0;}
+.style__card-item___B1f7m:first-child{border-top-left-radius:3px;border-top-right-radius:3px;}
+.style__card-item___B1f7m:last-child{border-bottom-left-radius:3px;border-bottom-right-radius:3px;}
+.style__card-item___B1f7m.style__large___Kv76x{padding:24px;}
+.style__card-item___B1f7m.style__large___Kv76x:last-of-type{padding-bottom:24px;}
+.style__card-item___B1f7m+.style__card-item___B1f7m{padding-top:0;}
+.style__card___1rhof{margin-bottom:24px;font-family:Suisse Int\'l,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;color:rgba(0,0,0,.8);background-color:#fff;border-radius:3px;-webkit-box-shadow:0 0 4px 1px rgba(0,0,0,.05),2px 2px 2px 1px rgba(0,0,0,.05);box-shadow:0 0 4px 1px rgba(0,0,0,.05),2px 2px 2px 1px rgba(0,0,0,.05);}
+.style__container___15r1p{margin:0 auto;min-width:320px;padding:24px 16px 0;}
+@media (max-width:767px){
+.style__container___15r1p{padding-top:16px;}
+}
+.style__medium___2PHCb{max-width:960px;}
+.style__text___2ilXR{color:rgba(0,0,0,.8);font-size:14px;line-height:22px;}
+.style__text___2ilXR+.style__text___2ilXR{margin-top:1em;}
+.style__xsmall___1Sdn-{font-size:12px;line-height:18px;}
+.style__small___1Nyai{font-size:13px;line-height:20px;}
+.style__large___3qwwG{font-size:16px;line-height:24px;}
+.style__muted___2z7cM{color:rgba(0,0,0,.56);}
+.style__semibold___3bkz0{font-weight:500;}
+.style__center___ihjch{text-align:center;}
+.style__tight___RF4uH{line-height:18px;}
+.style__fitted___1GslH+.style__fitted___1GslH{margin-top:0;}
+.style__heading-group___3uRpr>:not(:last-child){margin:0 0 .3em;}
+.style__heading___29i1Z{margin:0 0 .7em;font-family:Suisse Int\'l,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,sans-serif;color:rgba(0,0,0,.98);line-height:1.33em;font-weight:500;}
+.style__heading___29i1Z.style__fitted___3L0Tr{margin:0;}
+.style__heading___29i1Z a{color:rgba(0,0,0,.98);}
+.style__huge___YeESj{font-size:24px;}
+.style__large___15W-p{font-size:18px;}
+.style__medium___m_Ip7{font-size:16px;}
+.style__small___2tODs{font-size:14px;}
+.style__tiny___3MMU7{font-size:13px;}
+.style__tag___JUqHD{display:inline-block;border-radius:3px;padding:4px 8px;margin:0 8px 8px 0;font-size:13px;line-height:15px;font-weight:500;max-width:100%;vertical-align:middle;background-color:#f0f0f0;color:#575757;}
+.style__content___2INbm{display:-webkit-box;display:-ms-flexbox;display:flex;overflow:hidden;}
+.style__children___1bmK9{overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;white-space:nowrap;}
+.style__fitted___3lmQj{margin:0;}
+.style__formatted___2u1nG{white-space:pre-line;overflow-wrap:break-word;word-wrap:break-word;word-break:break-word;}
+.style__media-body___1QdtR{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-negative:1;flex-shrink:1;min-width:0;max-width:100%;}
+.style__media-avatar___1vwlF{-ms-flex-item-align:baseline;align-self:baseline;-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:0;flex-shrink:0;margin-right:16px;}
+@media screen and (max-width:767px){
+.style__media-avatar___1vwlF{width:auto;margin-bottom:24px;}
+}
+.style__default-icon___2cQoZ{color:#949494;background-color:#e0e0e0;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;height:40px;width:40px;min-width:40px;line-height:40px;font-size:16px;display:block;text-align:center;border-radius:3px;}
+.style__add-organization-button___3ElxG:hover{cursor:pointer;text-decoration:none;}
+.style__project-link___3lhxz{color:#1569e0;font-size:16px;margin-left:8px;}
+.style__media-body___3wHvz{-ms-flex-preferred-size:0;flex-basis:0;}
+.style__content___IR0nx{position:relative;}
+.style__student-info___33_AR{text-align:center;word-break:break-word;}
+.style__institution-avatar___3xmzR{position:absolute;top:0;left:0;}
+.style__user-avatar___2KxEV{margin-bottom:16px;}
+.style__message-button___QipkK{margin-top:16px;}
+.style__bio___3F6vT{color:rgba(0,0,0,.8);font-size:18px;line-height:24px;}
+.style__profile___26D5X{position:relative;}
+@media (max-width:767px){
+.style__profile-row___KAiYi{margin-left:0;margin-right:0;}
+}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:"Suisse Int'l";font-weight:400;font-style:normal;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-book-web-s-fdc357d49f9c7c17fc90ebee4ea5fee7dcb7f9fb7dd3607aa46c2cc3e4e3da88.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-book-web-s-a34a13560aef3c4294b8ff062f29c487c3347511686da672f8a465e9d9d79e03.woff") format("woff");}
+@font-face{font-family:"Suisse Int'l";font-weight:400;font-style:italic;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-book-italic-web-s-5003cbb87c8254f23e18e47d2f114c776ea189ca7c09e285e516b4962cfcb26c.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-book-italic-web-s-2aff61b75e1f1f4da985e6d0e1b4a3ec49d7dc72b605d103fe7a2c221f252f79.woff") format("woff");}
+@font-face{font-family:"Suisse Int'l";font-weight:500;font-style:normal;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-medium-web-s-01f9af31241983b9313916763efd351ec8e6cfe0097d93cc45d718ccc32286fb.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-medium-web-s-1a5a1b36acc407ad96fc625ae7d515c5982c0dd03bdd1a0e8eb51f1136926c4b.woff") format("woff");}
+@font-face{font-family:"Suisse Int'l";font-weight:500;font-style:italic;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-medium-italic-web-s-7c3b05f25dfd11d4c78deee7bff7ad1d6316241cc5b1ac61f30da784cd783613.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-medium-italic-web-s-f948ae9be245e2de2ee15b2fffbf75f0b4ea0c2dca34cd81ef9b6008e9fd5c94.woff") format("woff");}
+@font-face{font-family:"Suisse Int'l";font-weight:700;font-style:normal;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-semibold-web-s-332a0f26bdc13ba2837984cf024040019c97ddaec5501356ce3970ec4e124d0d.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-semibold-web-s-a575b991bd6871eabbeba2c9211ea8fcbb55a42dffddd8c5079e42401735a121.woff") format("woff");}
+@font-face{font-family:"Suisse Int'l";font-weight:700;font-style:italic;font-display:swap;src:url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-semibold-italic-web-s-2487f4d500da5da8ba584e1a7cab83d8e1581bdfeb4ddc463aac2319b603a188.woff2") format("woff2"),url("https://handshake-production-cdn.joinhandshake.com/assets/suisse-intl-semibold-italic-web-s-cc176f9eb601827ea986899b0229fa37e2b990584c9a0bbc207875d2656d932c.woff") format("woff");}

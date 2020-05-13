@@ -1,0 +1,27 @@
+
+.prelogin-header {
+  text-align: center;
+}
+.div-center-align{
+  text-align: center;
+}
+
+.prelogin-header svg{
+  text-align: center;
+  box-sizing:border-box;
+  color:rgb(0, 0, 0);
+  cursor:pointer;
+  fill:rgb(255, 17, 0);
+  font-family:SuisseIntl, sans-serif;
+  font-size:14px;
+  font-style:normal;
+  font-weight:400;
+  height:25.7656px;
+  line-height:18px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  text-size-adjust:100%;
+  width:170px;
+  -webkit-font-smoothing:antialiased;
+  -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+}
