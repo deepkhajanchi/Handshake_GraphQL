@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<Home
+  studentProfile={
+    Object {
+      "collegeName": "San Jose State University",
+      "educationDetails": Array [
+        Object {
+          "collegeName": "Florida Tech University",
+          "currentCgpa": 3.8,
+          "degree": "Masters",
+          "highestDegree": true,
+          "location": "San Jose",
+          "major": "Aeronautics",
+          "studentProfileId": 3,
+          "yearOfPassing": 2022,
+        },
+      ],
+      "firstName": "Robert",
+      "id": 3,
+      "lastName": "Matt",
+      "userId": 10,
+    }
+  }
+>
+  <Container
+    fluid={false}
+  >
+    <div
+      className="container"
+    >
+      <br />
+      <br />
+      <Row
+        noGutters={false}
+      >
+        <div
+          className="row"
+        >
+          <Col>
+            <div
+              className="col"
+            />
+          </Col>
+          <Col>
+            <div
+              className="col"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col>
+                    <div
+                      className="col"
+                    >
+                      <Button
+                        active={false}
+                        disabled={false}
+                        href="/signup"
+                        type="button"
+                        variant="primary"
+                      >
+                        <SafeAnchor
+                          className="btn btn-primary"
+                          disabled={false}
+                          href="/signup"
+                        >
+                          <a
+                            className="btn btn-primary"
+                            href="/signup"
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                          >
+                            Sign Up
+                          </a>
+                        </SafeAnchor>
+                      </Button>
+                    </div>
+                  </Col>
+                  <Col>
+                    <div
+                      className="col"
+                    />
+                  </Col>
+                  <Col>
+                    <div
+                      className="col"
+                    >
+                      <Button
+                        active={false}
+                        disabled={false}
+                        href="/signin"
+                        type="button"
+                        variant="primary"
+                      >
+                        <SafeAnchor
+                          className="btn btn-primary"
+                          disabled={false}
+                          href="/signin"
+                        >
+                          <a
+                            className="btn btn-primary"
+                            href="/signin"
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                          >
+                            Sign In
+                          </a>
+                        </SafeAnchor>
+                      </Button>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Col>
+          <Col>
+            <div
+              className="col"
+            />
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </Container>
+</Home>
+`;

@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<SkillSet
+  studentProfile={
+    Object {
+      "collegeName": "SFSU",
+      "educationDetails": Array [
+        Object {
+          "collegeName": "Stonybrook",
+          "currentCgpa": 3.7,
+          "degree": "Masters",
+          "highestDegree": true,
+          "location": "Mew York",
+          "major": "Data Science",
+          "studentProfileId": 2,
+          "yearOfPassing": 2023,
+        },
+      ],
+      "firstName": "Mat",
+      "id": 2,
+      "lastName": "Prior",
+      "userId": 9,
+    }
+  }
+>
+  <SkillSetEdit
+    setstateObj={[Function]}
+    studentProfile={
+      Object {
+        "collegeName": "SFSU",
+        "educationDetails": Array [
+          Object {
+            "collegeName": "Stonybrook",
+            "currentCgpa": 3.7,
+            "degree": "Masters",
+            "highestDegree": true,
+            "location": "Mew York",
+            "major": "Data Science",
+            "studentProfileId": 2,
+            "yearOfPassing": 2023,
+          },
+        ],
+        "firstName": "Mat",
+        "id": 2,
+        "lastName": "Prior",
+        "userId": 9,
+      }
+    }
+  >
+    <Card
+      body={false}
+      my-3={true}
+    >
+      <div
+        className="card"
+        my-3={true}
+      >
+        <CardBody>
+          <div
+            className="card-body"
+          >
+            <CardTitle>
+              <ForwardRef
+                className="card-title"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Skills
+                </div>
+              </ForwardRef>
+            </CardTitle>
+            <Form
+              inline={false}
+              onSubmit={[Function]}
+            >
+              <form
+                className=""
+                onSubmit={[Function]}
+              >
+                <CardText>
+                  <p
+                    className="card-text"
+                  />
+                </CardText>
+                <Row
+                  noGutters={false}
+                >
+                  <div
+                    className="row"
+                  >
+                    <Col
+                      className="pr-1"
+                      xs={8}
+                    >
+                      <div
+                        className="pr-1 col-8"
+                      >
+                        <FormControl
+                          name="newSkill"
+                          placeholder="Add new Skills"
+                          required={true}
+                        >
+                          <input
+                            className="form-control"
+                            name="newSkill"
+                            placeholder="Add new Skills"
+                            required={true}
+                          />
+                        </FormControl>
+                      </div>
+                    </Col>
+                    <Col
+                      className="pl-1"
+                    >
+                      <div
+                        className="pl-1 col"
+                      >
+                        <Button
+                          active={false}
+                          disabled={false}
+                          type="submit"
+                          variant="primary"
+                        >
+                          <button
+                            className="btn btn-primary"
+                            disabled={false}
+                            type="submit"
+                          >
+                            Add
+                          </button>
+                        </Button>
+                      </div>
+                    </Col>
+                    <Col>
+                      <div
+                        className="col"
+                      />
+                    </Col>
+                  </div>
+                </Row>
+              </form>
+            </Form>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+  </SkillSetEdit>
+</SkillSet>
+`;

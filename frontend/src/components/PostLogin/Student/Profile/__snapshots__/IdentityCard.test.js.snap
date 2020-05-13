@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<IdentityCard
+  studentProfile={
+    Object {
+      "collegeName": "SFSU",
+      "educationDetails": Array [
+        Object {
+          "collegeName": "Stonybrook",
+          "currentCgpa": 3.7,
+          "degree": "Masters",
+          "highestDegree": true,
+          "location": "Mew York",
+          "major": "Data Science",
+          "studentProfileId": 2,
+          "yearOfPassing": 2023,
+        },
+      ],
+      "firstName": "Mat",
+      "id": 2,
+      "lastName": "Prior",
+      "userId": 9,
+    }
+  }
+>
+  <IdentityCardShow
+    setstateObj={[Function]}
+    studentProfile={
+      Object {
+        "collegeName": "SFSU",
+        "educationDetails": Array [
+          Object {
+            "collegeName": "Stonybrook",
+            "currentCgpa": 3.7,
+            "degree": "Masters",
+            "highestDegree": true,
+            "location": "Mew York",
+            "major": "Data Science",
+            "studentProfileId": 2,
+            "yearOfPassing": 2023,
+          },
+        ],
+        "firstName": "Mat",
+        "id": 2,
+        "lastName": "Prior",
+        "userId": 9,
+      }
+    }
+  >
+    <Card
+      body={false}
+      className="text-center"
+      fluid={true}
+    >
+      <div
+        className="text-center card"
+        fluid={true}
+      >
+        <CardBody>
+          <div
+            className="card-body"
+          >
+            <div>
+              <Button
+                active={false}
+                disabled={false}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "float": "right",
+                    "width": "10px",
+                  }
+                }
+                type="button"
+                variant="link"
+              >
+                <button
+                  className="btn btn-link"
+                  disabled={false}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "float": "right",
+                      "width": "10px",
+                    }
+                  }
+                  type="button"
+                >
+                  <EditProfileSvg>
+                    <div>
+                      <svg
+                        aria-hidden="true"
+                        className="svg-inline--fa fa-pen fa-w-16 style__left-icon___1hSd_ icon"
+                        data-icon="pen"
+                        data-prefix="far"
+                        role="img"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M493.26 56.26l-37.51-37.51C443.25 6.25 426.87 0 410.49 0s-32.76 6.25-45.25 18.74l-74.49 74.49L256 127.98 12.85 371.12.15 485.34C-1.45 499.72 9.88 512 23.95 512c.89 0 1.79-.05 2.69-.15l114.14-12.61L384.02 256l34.74-34.74 74.49-74.49c25-25 25-65.52.01-90.51zM118.75 453.39l-67.58 7.46 7.53-67.69 231.24-231.24 31.02-31.02 60.14 60.14-31.02 31.02-231.33 231.33zm340.56-340.57l-44.28 44.28-60.13-60.14 44.28-44.28c4.08-4.08 8.84-4.69 11.31-4.69s7.24.61 11.31 4.69l37.51 37.51c6.24 6.25 6.24 16.4 0 22.63z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                  </EditProfileSvg>
+                </button>
+              </Button>
+            </div>
+            <withAvatarConfig
+              name="Mat Prior"
+              src="http://localhost:3001/images/profile_pics/undefined.png"
+            >
+              <Avatar
+                avatarRedirectUrl={null}
+                cache={
+                  Cache {
+                    "cachePrefix": "react-avatar/",
+                    "sourceSize": 20,
+                    "sourceTTL": 604800000,
+                  }
+                }
+                className=""
+                colors={
+                  Array [
+                    "#d73d32",
+                    "#7e3794",
+                    "#4285f4",
+                    "#67ae3f",
+                    "#d61a7f",
+                    "#ff4080",
+                  ]
+                }
+                fgColor="#FFF"
+                initials={[Function]}
+                name="Mat Prior"
+                round={false}
+                size={100}
+                src="http://localhost:3001/images/profile_pics/undefined.png"
+                textMarginRatio={0.15}
+                textSizeRatio={3}
+                unstyled={false}
+              >
+                <div
+                  className=" sb-avatar"
+                  style={
+                    Object {
+                      "borderRadius": false,
+                      "display": "inline-block",
+                      "fontFamily": "Helvetica, Arial, sans-serif",
+                      "height": "100px",
+                      "verticalAlign": "middle",
+                      "width": "100px",
+                    }
+                  }
+                >
+                  <div
+                    className=" sb-avatar__text"
+                    style={
+                      Object {
+                        "background": undefined,
+                        "borderRadius": false,
+                        "color": "#FFF",
+                        "height": "100px",
+                        "lineHeight": "initial",
+                        "textAlign": "center",
+                        "width": "100px",
+                      }
+                    }
+                    title="Mat Prior"
+                  >
+                    <div
+                      style={
+                        Object {
+                          "display": "table",
+                          "height": "100%",
+                          "tableLayout": "fixed",
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "display": "table-cell",
+                            "fontSize": "100%",
+                            "verticalAlign": "middle",
+                            "whiteSpace": "nowrap",
+                          }
+                        }
+                      >
+                        <span
+                          key="100"
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Avatar>
+            </withAvatarConfig>
+            <CardTitle>
+              <ForwardRef
+                className="card-title"
+              >
+                <div
+                  className="card-title h5"
+                >
+                  Mat
+                   
+                  Prior
+                </div>
+              </ForwardRef>
+            </CardTitle>
+            <CardText>
+              <p
+                className="card-text"
+              />
+            </CardText>
+            <CardText>
+              <p
+                className="card-text"
+              >
+                Masters
+                ,
+                 
+                Data Science
+              </p>
+            </CardText>
+            <CardText>
+              <p
+                className="card-text"
+              >
+                Year of Passing
+                2023
+              </p>
+            </CardText>
+            <CardText>
+              <p
+                className="card-text"
+              >
+                <ProfileMessage
+                  studentProfile={
+                    Object {
+                      "collegeName": "SFSU",
+                      "educationDetails": Array [
+                        Object {
+                          "collegeName": "Stonybrook",
+                          "currentCgpa": 3.7,
+                          "degree": "Masters",
+                          "highestDegree": true,
+                          "location": "Mew York",
+                          "major": "Data Science",
+                          "studentProfileId": 2,
+                          "yearOfPassing": 2023,
+                        },
+                      ],
+                      "firstName": "Mat",
+                      "id": 2,
+                      "lastName": "Prior",
+                      "userId": 9,
+                    }
+                  }
+                >
+                  <Button
+                    active={false}
+                    disabled={false}
+                    onClick={[Function]}
+                    type="button"
+                    variant="primary"
+                  >
+                    <button
+                      className="btn btn-primary"
+                      disabled={false}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      Message
+                    </button>
+                  </Button>
+                  <Bootstrap(Modal)
+                    onHide={[Function]}
+                    show={false}
+                  >
+                    <Modal
+                      animation={true}
+                      autoFocus={true}
+                      backdrop={true}
+                      bsPrefix="modal"
+                      dialogAs={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "displayName": "ModalDialog",
+                          "render": [Function],
+                        }
+                      }
+                      enforceFocus={true}
+                      keyboard={true}
+                      onHide={[Function]}
+                      restoreFocus={true}
+                      show={false}
+                    >
+                      <ForwardRef
+                        autoFocus={true}
+                        backdrop={true}
+                        backdropTransition={[Function]}
+                        className="modal"
+                        containerClassName="modal-open"
+                        enforceFocus={true}
+                        keyboard={true}
+                        manager={
+                          BootstrapModalManager {
+                            "adjustAndStore": [Function],
+                            "containers": Array [],
+                            "data": Array [],
+                            "handleContainerOverflow": true,
+                            "hideSiblingNodes": true,
+                            "modals": Array [],
+                            "restore": [Function],
+                            "scrollbarSize": 0,
+                          }
+                        }
+                        onClick={[Function]}
+                        onEnter={[Function]}
+                        onEntering={[Function]}
+                        onExited={[Function]}
+                        onHide={[Function]}
+                        onMouseUp={[Function]}
+                        renderBackdrop={[Function]}
+                        restoreFocus={true}
+                        show={false}
+                        style={Object {}}
+                        transition={[Function]}
+                      >
+                        <Modal
+                          autoFocus={true}
+                          backdrop={true}
+                          backdropTransition={[Function]}
+                          className="modal"
+                          container={<body />}
+                          containerClassName="modal-open"
+                          enforceFocus={true}
+                          keyboard={true}
+                          manager={
+                            BootstrapModalManager {
+                              "adjustAndStore": [Function],
+                              "containers": Array [],
+                              "data": Array [],
+                              "handleContainerOverflow": true,
+                              "hideSiblingNodes": true,
+                              "modals": Array [],
+                              "restore": [Function],
+                              "scrollbarSize": 0,
+                            }
+                          }
+                          onClick={[Function]}
+                          onEnter={[Function]}
+                          onEntering={[Function]}
+                          onExited={[Function]}
+                          onHide={[Function]}
+                          onMouseUp={[Function]}
+                          renderBackdrop={[Function]}
+                          restoreFocus={true}
+                          role="dialog"
+                          show={false}
+                          style={Object {}}
+                          transition={[Function]}
+                        />
+                      </ForwardRef>
+                    </Modal>
+                  </Bootstrap(Modal)>
+                </ProfileMessage>
+              </p>
+            </CardText>
+          </div>
+        </CardBody>
+      </div>
+    </Card>
+  </IdentityCardShow>
+</IdentityCard>
+`;
