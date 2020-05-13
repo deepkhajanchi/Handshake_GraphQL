@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { connect } from 'react-redux';
+import ApolloClient from 'apollo-boost';
+import { ApolloProvider } from 'react-apollo';
+//import { connect } from 'react-redux';
 import { Container } from 'react-bootstrap';
 import Home from './components/Prelogin/Home';
 import SignIn from './components/Prelogin/SignIn';
@@ -32,6 +34,7 @@ import AllStudents from './components/PostLogin/Entities/AllStudents';
 
 function App({ userInfo }) {
   return (
+     <ApolloProvider>
     <Router>
       <link
         rel="stylesheet"
@@ -74,6 +77,7 @@ function App({ userInfo }) {
         </Container>
       </div>
     </Router>
+  </ApolloProvider>
   );
 }
 const mapStateToProps = (state) => ({ 
